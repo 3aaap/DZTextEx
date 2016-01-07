@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.lightGrayColor()
+        
+        let rect = CGRectMake(100, 100, 200, 200)
+        
+        let testView = CoreTextTestView(frame: rect)
+        
+        testView.backgroundColor = UIColor.whiteColor()
+        
+        view.addSubview(testView)
+        
     }
 
     override func didReceiveMemoryWarning() {

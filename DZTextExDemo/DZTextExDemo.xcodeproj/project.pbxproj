@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0A21051C3EA4050024FC36 /* CoreTextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0A21041C3EA4050024FC36 /* CoreTextTestView.swift */; };
 		DA303F651C3CC0D3005EEDD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303F641C3CC0D3005EEDD8 /* AppDelegate.swift */; };
 		DA303F671C3CC0D3005EEDD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303F661C3CC0D3005EEDD8 /* ViewController.swift */; };
 		DA303F6C1C3CC0D3005EEDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA303F6B1C3CC0D3005EEDD8 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA0A21041C3EA4050024FC36 /* CoreTextTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextTestView.swift; sourceTree = "<group>"; };
 		DA303F611C3CC0D3005EEDD8 /* DZTextExDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZTextExDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA303F641C3CC0D3005EEDD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA303F661C3CC0D3005EEDD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				DA303F641C3CC0D3005EEDD8 /* AppDelegate.swift */,
 				DA303F661C3CC0D3005EEDD8 /* ViewController.swift */,
+				DA0A21041C3EA4050024FC36 /* CoreTextTestView.swift */,
 				DA303F831C3CEB1F005EEDD8 /* LaunchScreen.storyboard */,
 				DA303F6B1C3CC0D3005EEDD8 /* Assets.xcassets */,
 				DA303F701C3CC0D3005EEDD8 /* Info.plist */,
@@ -142,6 +145,7 @@
 			files = (
 				DA303F671C3CC0D3005EEDD8 /* ViewController.swift in Sources */,
 				DA303F651C3CC0D3005EEDD8 /* AppDelegate.swift in Sources */,
+				DA0A21051C3EA4050024FC36 /* CoreTextTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				DA303F751C3CC0D3005EEDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
