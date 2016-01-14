@@ -11,6 +11,10 @@
 		DA303F671C3CC0D3005EEDD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA303F661C3CC0D3005EEDD8 /* ViewController.swift */; };
 		DA303F6C1C3CC0D3005EEDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA303F6B1C3CC0D3005EEDD8 /* Assets.xcassets */; };
 		DA303F851C3CEB1F005EEDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA303F831C3CEB1F005EEDD8 /* LaunchScreen.storyboard */; };
+		DA6640741C43DB2900DF16DD /* DZTextExConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6640731C43DB2900DF16DD /* DZTextExConfig.swift */; };
+		DA6640761C43DDD600DF16DD /* DZFrameGenerater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6640751C43DDD600DF16DD /* DZFrameGenerater.swift */; };
+		DA6640781C43DE1200DF16DD /* DZTextExData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6640771C43DE1200DF16DD /* DZTextExData.swift */; };
+		DA66407A1C43DE3F00DF16DD /* DZTextExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6640791C43DE3F00DF16DD /* DZTextExView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		DA303F6B1C3CC0D3005EEDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA303F701C3CC0D3005EEDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA303F841C3CEB1F005EEDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA6640731C43DB2900DF16DD /* DZTextExConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZTextExConfig.swift; sourceTree = "<group>"; };
+		DA6640751C43DDD600DF16DD /* DZFrameGenerater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZFrameGenerater.swift; sourceTree = "<group>"; };
+		DA6640771C43DE1200DF16DD /* DZTextExData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZTextExData.swift; sourceTree = "<group>"; };
+		DA6640791C43DE3F00DF16DD /* DZTextExView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZTextExView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +44,7 @@
 		DA303F581C3CC0D3005EEDD8 = {
 			isa = PBXGroup;
 			children = (
-				DA303F801C3CE6B2005EEDD8 /* DZTextEx */,
+				DA6640721C43DAE300DF16DD /* DZTextEx */,
 				DA303F631C3CC0D3005EEDD8 /* DZTextExDemo */,
 				DA303F621C3CC0D3005EEDD8 /* Products */,
 			);
@@ -62,9 +70,13 @@
 			path = DZTextExDemo;
 			sourceTree = "<group>";
 		};
-		DA303F801C3CE6B2005EEDD8 /* DZTextEx */ = {
+		DA6640721C43DAE300DF16DD /* DZTextEx */ = {
 			isa = PBXGroup;
 			children = (
+				DA6640731C43DB2900DF16DD /* DZTextExConfig.swift */,
+				DA6640751C43DDD600DF16DD /* DZFrameGenerater.swift */,
+				DA6640771C43DE1200DF16DD /* DZTextExData.swift */,
+				DA6640791C43DE3F00DF16DD /* DZTextExView.swift */,
 			);
 			name = DZTextEx;
 			path = ../DZTextEx;
@@ -140,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA66407A1C43DE3F00DF16DD /* DZTextExView.swift in Sources */,
+				DA6640741C43DB2900DF16DD /* DZTextExConfig.swift in Sources */,
 				DA303F671C3CC0D3005EEDD8 /* ViewController.swift in Sources */,
+				DA6640781C43DE1200DF16DD /* DZTextExData.swift in Sources */,
 				DA303F651C3CC0D3005EEDD8 /* AppDelegate.swift in Sources */,
+				DA6640761C43DDD600DF16DD /* DZFrameGenerater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				DA303F751C3CC0D3005EEDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
