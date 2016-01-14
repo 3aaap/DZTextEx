@@ -14,6 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.lightGrayColor()
+        
+        let config = DZTextExConfig(width: view.bounds.size.width, fontSize: 17, lineSpace: 15, textColor: UIColor.redColor())
+        
+        let textData = DZFrameGenerater.generateData("准备测试 core text,准备测试 core text,准备测试 core text,准备测试 core text,准备测试 core text,准备测试 core text", config: config)
+        
+        let textView = DZTextExView(textData: textData)
+        textView.backgroundColor = UIColor.whiteColor()
+        
+        textView.frame = CGRectMake(0, 100, view.bounds.size.width, textData.height)
+        
+        view.addSubview(textView)
     }
 
     override func didReceiveMemoryWarning() {
