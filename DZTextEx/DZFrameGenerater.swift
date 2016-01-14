@@ -9,7 +9,7 @@
 import UIKit
 
 class DZFrameGenerater: NSObject {
-
+    
     class func generateAttribute(config: DZTextExConfig) -> [String : AnyObject] {
         // 设置字体大小
         let fontSize = config.fontSize
